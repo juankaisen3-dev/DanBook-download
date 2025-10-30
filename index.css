@@ -1,0 +1,46 @@
+.notification-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.notification {
+  min-width: 300px;
+  margin-bottom: 10px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  y: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.main-container {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 25px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+}
+
+.download-btn {
+  background: linear-gradient(45deg, #1e40af, #3b82f6);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.format-badge {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.format-badge:hover {
+  transform: scale(1.05);
+}
